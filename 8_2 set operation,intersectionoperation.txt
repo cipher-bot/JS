@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function intersection(setA,setB){
+            let intersectionSet= new Set();
+            for (let i of setB){
+                if (setA.has(i)){
+                    intersectionSet.add(i);
+
+                }
+            }
+            return intersectionSet;
+        }
+        
+        const setA=new Set(["Apple","Mango","Orange"]);
+        const setB=new Set(["Grapes","Apple","Banana"]);
+
+        const result=intersection(setA,setB);
+        document.write(result);
+        
+    </script>
+</body>
+</html>

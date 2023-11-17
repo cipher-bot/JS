@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Triangle</title>
+
+    <script>
+        function Area(){
+            var side1=parseInt(document.getElementById("side1").value);
+            var side2=parseInt(document.getElementById("side2").value);
+            var side3=parseInt(document.getElementById("side3").value);
+            console.log(typeof(side1));
+            var s=(side1+side2+side3)/2;
+            var area=Math.sqrt(s*((side1)*(side2)*(side3)));
+            document.getElementById("Display").innerHTML=area;
+        }
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1 style="color: green;">Greek For Greeks</h1>
+    <h4>Javascript function to find Area of Triangle</h4>
+    <label for="side1">Enter The value of side 1:</label>
+    <input type="number" id="side1" placeholder="Enter The value of Side 1"/></br></br>
+    <label for="side2">Enter The value of side 2:</label>
+    <input type="number" id="side2" placeholder="Enter The value of Side 2"/></br></br>
+    <label for="side3">Enter The value of side 3:</label>
+    <input type="number" id="side3" placeholder="Enter The valueof Side 3"/></br></br>
+    <button onclick="Area()">Click Here!</button>
+    <p> 
+        Area of triangle:<span id="Display"></span>
+
+    </p>
+    
+
+    
+</body>
+</html>

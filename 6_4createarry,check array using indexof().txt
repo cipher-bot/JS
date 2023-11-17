@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array=["You","Will","Learn","javascript"];
+        const hasValue=array.indexOf("javascript")!==-1;
+
+        if (hasValue){
+            document.write("Array contain a value");
+        }
+        else{
+            document.write("Array dose not Contains A value");
+        }
+    </script>
+</body>
+</html>

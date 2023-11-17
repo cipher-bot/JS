@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const string1="javaScript Program";
+        const string2="javascript program";;
+        const result=string1.localeCompare(string2,undefined,{sensitive:"base"});
+        if(result==0){
+            document.write("The string is Similar");
+
+        }
+        else{
+            document.write("The sstring is not similar");
+        }
+    </script>
+</body>
+</html>

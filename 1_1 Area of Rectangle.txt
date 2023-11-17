@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle</title>
+    <script>
+        var l,w,a;
+        l=8;
+        w=6;
+        a=l*w;
+        document.write("Area Of Rectangle= "+a+"units");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
